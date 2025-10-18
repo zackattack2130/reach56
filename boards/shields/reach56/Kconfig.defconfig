@@ -1,0 +1,17 @@
+if SHIELD_REACH56_LEFT
+
+# Name must be less than 16 characters long!
+config ZMK_KEYBOARD_NAME
+    default "Reach56"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_REACH56_LEFT || SHIELD_REACH56_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif

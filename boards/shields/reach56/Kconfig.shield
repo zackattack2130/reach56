@@ -1,0 +1,5 @@
+config SHIELD_REACH56_LEFT
+    def_bool $(shields_list_contains,reach56_left)
+
+config SHIELD_REACH56_RIGHT
+    def_bool $(shields_list_contains,reach56_right)
